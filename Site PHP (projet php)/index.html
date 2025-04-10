@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+        <title>Document</title>
+       
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li>
+                    <img src="./CSS/btskenitra.png" alt="LOGO"  >
+                </li>
+                
+                <li>
+                    <a href="inscriptionn.php">
+                        <span class="icon">
+                            <i class="material-icons">how_to_reg</i>
+                        </span>
+                        <span class="title">inscription</span>
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="index.html">
+                        <span class="icon">
+                            <i class="material-icons">login</i>
+                        </span>
+                        <span class="title">login</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                  
+                </div>
+            </div>
+        <div id="connecter" >
+           
+            <div class="login-container">
+                <h2>Connexion</h2>
+                <form action="login.php" method="post">
+                    <input type="text" name="username" placeholder="Nom d'utilisateur ou Email" required>
+                    <input type="password" name="password" placeholder="Mot de passe" required>
+                    <button type="submit">Se connecter</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+       
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
